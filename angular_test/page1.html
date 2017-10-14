@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="table-responsive">          
+  <table class="table" style="text-align: center">
+    <thead>
+      <tr>
+        <th style="text-align: center">Movie Names</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="movie in movies" ng-click="selectMovie(movie)">
+        <td>{{movie.title}}</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
